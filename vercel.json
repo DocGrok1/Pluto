@@ -1,0 +1,9 @@
+{
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/pluto-pipeline-tick",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}
